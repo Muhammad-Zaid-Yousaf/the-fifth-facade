@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL;
+
 export const projects = [
   {
     slug: 'healing-hospital',
@@ -9,12 +11,12 @@ export const projects = [
     details:
       'This specialized hospital project is organized around calming sightlines, natural ventilation, and patient-centered circulation. The design blends efficient medical workflows with soft, restorative spaces that support recovery.',
     highlights: ['Biophilic circulation', 'Operative flow efficiency', 'Sanctuary-like patient experience'],
-    image: '/assets/250-beds-gynae-hospital-visualization-1.jpg',
+    image: BASE + 'assets/250-beds-gynae-hospital-visualization-1.jpg',
     gallery: [
-      '/assets/250-beds-gynae-hospital-visualization-1.jpg',
-      '/assets/250-beds-gynae-hospital-visualization-2.jpg',
-      '/assets/250-beds-gynae-hospital-visualization-3.jpg',
-      '/assets/250-beds-gynae-hospital-master-plan.jpg',
+      BASE + 'assets/250-beds-gynae-hospital-visualization-1.jpg',
+      BASE + 'assets/250-beds-gynae-hospital-visualization-2.jpg',
+      BASE + 'assets/250-beds-gynae-hospital-visualization-3.jpg',
+      BASE + 'assets/250-beds-gynae-hospital-master-plan.jpg',
     ],
     summary: 'A human-centered medical campus that brings nature and wellness into every patient experience.',
   },
@@ -28,10 +30,10 @@ export const projects = [
     details:
       'The autism care complex is designed to feel grounding and predictable. Each space is tuned for sensory comfort, from acoustic treatment to secure circulation, while the facade strategy anchors the project in sustainable innovation.',
     highlights: ['Acoustic control', 'Predictable transitions', 'Bio-fabrication envelope'],
-    image: '/assets/complex-for-autistic-children-visualization-1.png',
+    image: BASE + 'assets/complex-for-autistic-children-visualization-1.png',
     gallery: [
-      '/assets/complex-for-autistic-children-visualization-1.png',
-      '/assets/complex-for-autistic-children-visualization-2.png',
+      BASE + 'assets/complex-for-autistic-children-visualization-1.png',
+      BASE + 'assets/complex-for-autistic-children-visualization-2.png',
     ],
     summary: 'A campus designed to protect and empower children through low-stress sensory architecture.',
   },
@@ -45,11 +47,11 @@ export const projects = [
     details:
       'This bedroom interior is a study in textured restraint. Carefully layered finishes, warm timber, and integrated lighting come together to create a restorative interior that feels both elevated and deeply comfortable.',
     highlights: ['Vertical timber panels', 'Integrated ambient lighting', 'Low-profile platform bed'],
-    image: '/assets/interior-projects-bedroom-interior-visualization-1.png',
+    image: BASE + 'assets/interior-projects-bedroom-interior-visualization-1.png',
     gallery: [
-      '/assets/interior-projects-bedroom-interior-visualization-1.png',
-      '/assets/interior-projects-bedroom-interior-visualization-2.png',
-      '/assets/interior-projects-bedroom-interior-visualization-3.png',
+      BASE + 'assets/interior-projects-bedroom-interior-visualization-1.png',
+      BASE + 'assets/interior-projects-bedroom-interior-visualization-2.png',
+      BASE + 'assets/interior-projects-bedroom-interior-visualization-3.png',
     ],
     summary: 'A quiet residential bedroom that blends calm minimalism with tactile warmth.',
   },
@@ -63,10 +65,10 @@ export const projects = [
     details:
       'This culinary interior brings a bold modern palette into a functional layout. The space is designed for cooking performance and visual drama, with atmospheric lighting and premium materiality.',
     highlights: ['Enscape lighting', 'Textural contrast', 'Optimized functional layout'],
-    image: '/assets/interior-projects-kitchen-interior-visualization-1.png',
+    image: BASE + 'assets/interior-projects-kitchen-interior-visualization-1.png',
     gallery: [
-      '/assets/interior-projects-kitchen-interior-visualization-1.png',
-      '/assets/interior-projects-kitchen-interior-visualization-2.png',
+      BASE + 'assets/interior-projects-kitchen-interior-visualization-1.png',
+      BASE + 'assets/interior-projects-kitchen-interior-visualization-2.png',
     ],
     summary: 'A contemporary kitchen interior created for movement, texture, and atmospheric light.',
   },
@@ -80,8 +82,8 @@ export const projects = [
     details:
       'The landscape plan is structured around a rhythmic network of pavilions and walking paths. It is conceived as a place of discovery where architecture and landscape are balanced through bold geometry.',
     highlights: ['Geometric pavilions', 'Fluid circulation', 'Expansive outdoor rhythm'],
-    image: '/assets/landscape-project-master-plan.jpg',
-    gallery: ['/assets/landscape-project-master-plan.jpg'],
+    image: BASE + 'assets/landscape-project-master-plan.jpg',
+    gallery: [BASE + 'assets/landscape-project-master-plan.jpg'],
     summary: 'A site plan that blends geometry and green space into a memorable landscape sequence.',
   },
 ];

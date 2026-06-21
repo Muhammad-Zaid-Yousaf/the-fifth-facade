@@ -1,5 +1,7 @@
 import { useMemo } from 'react';
 
+const BASE = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: 'Healing Hospital',
@@ -7,7 +9,7 @@ const projects = [
     description:
       'A nature-infused healing environment that balances functional medical precision with human warmth. Corridors and patient rooms are oriented around natural light and green views to support holistic wellness.',
     highlights: ['Biophilic circulation', 'Operative flow efficiency', 'Sanctuary-like patient experience'],
-    image: '/assets/250-beds-gynae-hospital-visualization-1.jpg',
+    image: BASE + 'assets/250-beds-gynae-hospital-visualization-1.jpg',
   },
   {
     title: 'Autism Care Complex',
@@ -15,7 +17,7 @@ const projects = [
     description:
       'A profoundly empathetic campus built on ASPECT design principles. The facility minimizes sensory overload, maximizes independence, and uses sustainable mycelium-inspired materials for a carbon-sequestering facade.',
     highlights: ['Acoustic control', 'Predictable transitions', 'Bio-fabrication envelope'],
-    image: '/assets/complex-for-autistic-children-visualization-1.png',
+    image: BASE + 'assets/complex-for-autistic-children-visualization-1.png',
   },
   {
     title: 'Quiet Bedroom',
@@ -23,7 +25,7 @@ const projects = [
     description:
       'A sanctuary defined by natural wood, ambient lighting, and clean geometry. The bedroom balances sleek modernity with organic comfort for refined domestic wellbeing.',
     highlights: ['Vertical timber panels', 'Integrated ambient lighting', 'Low-profile platform bed'],
-    image: '/assets/interior-projects-bedroom-interior-visualization-1.png',
+    image: BASE + 'assets/interior-projects-bedroom-interior-visualization-1.png',
   },
   {
     title: 'Modern Kitchen',
@@ -31,7 +33,7 @@ const projects = [
     description:
       'A kitchen visualization that pairs sharp lines with warm tactile textures. The design emphasizes spatial harmony, realistic atmosphere, and smooth digital storytelling.',
     highlights: ['Enscape lighting', 'Textural contrast', 'Optimized functional layout'],
-    image: '/assets/interior-projects-kitchen-interior-visualization-1.png',
+    image: BASE + 'assets/interior-projects-kitchen-interior-visualization-1.png',
   },
   {
     title: 'Landscape Master Plan',
@@ -39,7 +41,7 @@ const projects = [
     description:
       'A 5-kanal landscape plan with seven hexagonal pavilions and a sculpted pedestrian spine. The design blends bold forms and fluid green spaces for an elevated site experience.',
     highlights: ['Geometric pavilions', 'Fluid circulation', 'Expansive outdoor rhythm'],
-    image: '/assets/landscape-project-master-plan.jpg',
+    image: BASE + 'assets/landscape-project-master-plan.jpg',
   },
 ];
 
